@@ -7,9 +7,9 @@ const Team = () => {
     <main id="main">
       <Breadcrumb name="Our Team" />
 
-      <section class="team" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
-        <div class="container">
-          <div class="row">
+      <section className="team" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
+        <div className="container">
+          <div className="row">
             <TeamItem person="Walter White" job="Chief Executive Officer" imgURL={require("../../assets/img/team/team-1.jpg")} description="Animi est delectus alias quam repellendus nihil nobis dolor. Est sapiente occaecati et dolore. Omnis aut ut nesciunt explicabo qui. Eius nam deleniti ut omnis repudiandae perferendis qui. Neque non quidem sit sed pariatur quia modi ea occaecati. Incidunt ea non est corporis in." />
             <TeamItem person="Sarah Jhonson" job="Product Manager" imgURL={require("../../assets/img/team/team-2.jpg")} description="Aspernatur iste esse aliquam enim et corporis. Molestiae voluptatem aut eligendi quis aut. Libero vel amet voluptatem eos rerum non doloremque. Dolores eum non." />
             <TeamItem person="William Anderson" job="CTO" imgURL={require("../../assets/img/team/team-3.jpg")} description="Ut enim possimus nihil cupiditate beatae. Veniam facere quae non qui necessitatibus rerum eos vero. Maxime sit sunt quo dolor autem est qui quaerat aliquid. Tenetur possimus qui enim." />
