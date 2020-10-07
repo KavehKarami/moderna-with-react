@@ -1,55 +1,11 @@
 import React from 'react';
+import HeroMain from '../components/heroSlider/HeroMain';
 
 const Home = () => {
   return (
     <React.Fragment>
 
-
-
-      {/* <!-- ======= Hero Section ======= --> */}
-      <section id="hero" className="d-flex justify-cntent-center align-items-center">
-        <div id="heroCarousel" className="container carousel carousel-fade" data-ride="carousel">
-
-          {/* <!-- Slide 1 --> */}
-          <div className="carousel-item active">
-            <div className="carousel-container">
-              <h2 className="animated fadeInDown">Welcome to <span>Moderna</span></h2>
-              <p className="animated fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-              <a href="/" className="btn-get-started animated fadeInUp">Read More</a>
-            </div>
-          </div>
-
-          {/* <!-- Slide 2 --> */}
-          <div className="carousel-item">
-            <div className="carousel-container">
-              <h2 className="animated fadeInDown">Lorem Ipsum Dolor</h2>
-              <p className="animated fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-              <a href="/" className="btn-get-started animated fadeInUp">Read More</a>
-            </div>
-          </div>
-
-          {/* <!-- Slide 3 --> */}
-          <div className="carousel-item">
-            <div className="carousel-container">
-              <h2 className="animated fadeInDown">Sequi ea ut et est quaerat</h2>
-              <p className="animated fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-              <a href="/" className="btn-get-started animated fadeInUp">Read More</a>
-            </div>
-          </div>
-
-          <a className="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
-            <span className="carousel-control-prev-icon bx bx-chevron-left" aria-hidden="true"></span>
-            <span className="sr-only">Previous</span>
-          </a>
-
-          <a className="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
-            <span className="carousel-control-next-icon bx bx-chevron-right" aria-hidden="true"></span>
-            <span className="sr-only">Next</span>
-          </a>
-
-        </div>
-      </section>
-      {/* <!-- End Hero --> */}
+      <HeroMain />
 
       <main id="main">
 
@@ -145,7 +101,7 @@ const Home = () => {
                 <p className="font-italic">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
                   magna aliqua.
-          </p>
+                </p>
                 <ul>
                   <li><i className="icofont-check"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
                   <li><i className="icofont-check"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
@@ -162,12 +118,12 @@ const Home = () => {
                 <p className="font-italic">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
                   magna aliqua.
-          </p>
+                </p>
                 <p>
                   Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
                   velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
                   culpa qui officia deserunt mollit anim id est laborum
-          </p>
+                </p>
               </div>
             </div>
 
@@ -195,12 +151,12 @@ const Home = () => {
                 <p className="font-italic">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
                   magna aliqua.
-          </p>
+                </p>
                 <p>
                   Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
                   velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
                   culpa qui officia deserunt mollit anim id est laborum
-          </p>
+                </p>
               </div>
             </div>
 
