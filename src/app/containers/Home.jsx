@@ -1,6 +1,6 @@
 import React from 'react';
 import HeroMain from '../components/heroSlider/HeroMain';
-import Services from '../components/shared/Services/Services';
+import Services from '../components/shared/section/Services/Services';
 
 const Home = () => {
   return (
@@ -13,34 +13,7 @@ const Home = () => {
 
 
         {/* <!-- ======= Why Us Section ======= --> */}
-        <section className="why-us section-bg" data-aos="fade-up" date-aos-delay="200">
-          <div className="container">
 
-            <div className="row">
-              <div className="col-lg-6 video-box">
-                <img src={require("../../assets/img/why-us.jpg")} className="img-fluid" alt="" />
-                <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" className="venobox hide-text play-btn mb-4" data-vbtype="video" data-autoplay="true">""</a>
-              </div>
-
-              <div className="col-lg-6 d-flex flex-column justify-content-center p-5">
-
-                <div className="icon-box">
-                  <div className="icon"><i className="bx bx-fingerprint"></i></div>
-                  <h4 className="title"><a href="/">Lorem Ipsum</a></h4>
-                  <p className="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-                </div>
-
-                <div className="icon-box">
-                  <div className="icon"><i className="bx bx-gift"></i></div>
-                  <h4 className="title"><a href="/">Nemo Enim</a></h4>
-                  <p className="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
-                </div>
-
-              </div>
-            </div>
-
-          </div>
-        </section>
         {/* <!-- End Why Us Section --> */}
 
         {/* <!-- ======= Features Section ======= --> */}
