@@ -1,5 +1,5 @@
 import React from 'react';
-import ServiceDetails from '../components/services/ServiceDetails';
+import ServiceDetails from '../components/services/serviceDetails/ServiceDetails';
 import Breadcrumb from "../components/shared/sections/Beadcrumb"
 import OurServices from "../components/shared/sections/services/OurServices"
 import WhyUs from '../components/shared/sections/whyUs/WhyUs';
