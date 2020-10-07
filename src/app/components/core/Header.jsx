@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { routes } from '../../routes';
 import { useLocation } from "react-router-dom"
 import CustomLink from '../utils/CustomLink';
