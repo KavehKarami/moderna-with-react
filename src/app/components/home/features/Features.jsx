@@ -1,4 +1,5 @@
 import React from 'react';
+import SectionTitle from '../../shared/sections/SectionTitle';
 import FeaturesItem from './FeaturesItem';
 
 const Features = () => {
@@ -6,10 +7,7 @@ const Features = () => {
     <section className="features">
       <div className="container">
 
-        <div className="section-title">
-          <h2>Features</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
+        <SectionTitle title="Features" description="Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas." />
 
         <FeaturesItem imgSide="left" title="Voluptatem dignissimos provident quasi corporis voluptates sit assumenda." imgURL={require("../../../../assets/img/features-1.svg")} >
           <p className="font-italic">
