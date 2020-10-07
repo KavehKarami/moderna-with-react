@@ -1,20 +1,17 @@
 import React from 'react';
 import HeroMain from '../components/heroSlider/HeroMain';
 import Services from '../components/shared/sections/services/Services';
+import WhyUs from '../components/shared/sections/whyUs/WhyUs';
 
 const Home = () => {
   return (
     <React.Fragment>
-
       <HeroMain />
 
       <main id="main">
         <Services />
+        <WhyUs />
 
-
-        {/* <!-- ======= Why Us Section ======= --> */}
-
-        {/* <!-- End Why Us Section --> */}
 
         {/* <!-- ======= Features Section ======= --> */}
         <section className="features">
