@@ -1,7 +1,7 @@
 import React from 'react';
 import ServiceItem from './ServiceItem';
 
-const Services = () => {
+const OurServices = () => {
   return (
     <section className="services">
       <div className="container">
@@ -18,4 +18,4 @@ const Services = () => {
   );
 }
 
-export default Services;
+export default OurServices;
