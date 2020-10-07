@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from "../components/core/Header"
 import Sidebar from "../components/core/Sidebar"
-import Footer from '../components/core/Sidebar';
+import Footer from '../components/core/Footer';
 
 const Layout = (props) => {
   return (
@@ -9,7 +9,7 @@ const Layout = (props) => {
       <Header />
       {/* <Sidebar /> */}
       {props.children}
-      {/* <Footer /> */}
+      <Footer />
     </React.Fragment>
   );
 }
