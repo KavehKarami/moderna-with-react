@@ -13,5 +13,5 @@ export const routes = [
   { path: "/portfolio", component: Portfolio, exact: true, label: "Portfolio" },
   { path: "/team", component: Team, exact: true, label: "Team" },
   { path: "/blog", component: Blog, exact: true, label: "Blog" },
-  { path: "/contact", Component: Contact, exact: true, label: "Contact Us" },
+  { path: "/contact", component: Contact, exact: true, label: "Contact Us" },
 ];
