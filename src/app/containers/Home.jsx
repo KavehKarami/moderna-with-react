@@ -15,7 +15,6 @@ const Home = () => {
         <Features />
       </main>
 
-      <a href="/#" className="back-to-top"><i className="icofont-simple-up"></i></a>
     </React.Fragment>
 
   );

@@ -1,15 +1,14 @@
 import React from 'react';
 import Header from "../components/core/Header"
-import Sidebar from "../components/core/Sidebar"
 import Footer from '../components/core/Footer';
 
 const Layout = (props) => {
   return (
     <React.Fragment>
       <Header />
-      {/* <Sidebar /> */}
       {props.children}
       <Footer />
+      <a href="/#" className="back-to-top"><i className="icofont-simple-up"></i></a>
     </React.Fragment>
   );
 }
