@@ -1,6 +1,6 @@
 import React from 'react';
 import HeroMain from '../components/heroSlider/HeroMain';
-import Services from '../components/shared/section/Services/Services';
+import Services from '../components/shared/sections/services/Services';
 
 const Home = () => {
   return (
