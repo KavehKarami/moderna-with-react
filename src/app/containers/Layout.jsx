@@ -6,7 +6,7 @@ import Footer from '../components/core/Sidebar';
 const Layout = (props) => {
   return (
     <React.Fragment>
-      {/* <Header /> */}
+      <Header />
       {/* <Sidebar /> */}
       {props.children}
       {/* <Footer /> */}
