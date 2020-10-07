@@ -1,6 +1,7 @@
 import React from 'react';
 import AboutCompany from '../components/about/AboutCompany';
 import Fact from '../components/about/fact/Fact';
+import Skills from '../components/about/skills/Skills';
 import Breadcrumb from '../components/shared/sections/Beadcrumb';
 
 const About = () => {
@@ -12,46 +13,7 @@ const About = () => {
 
       <Fact />
 
-
-      <section className="skills" data-aos="fade-up">
-        <div className="container">
-
-          <div className="section-title">
-            <h2>Our Skills</h2>
-            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-          </div>
-
-          <div className="skills-content">
-
-            <div className="progress">
-              <div className="progress-bar bg-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                <span className="skill">HTML <i className="val">100%</i></span>
-              </div>
-            </div>
-
-            <div className="progress">
-              <div className="progress-bar bg-info" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                <span className="skill">CSS <i className="val">90%</i></span>
-              </div>
-            </div>
-
-            <div className="progress">
-              <div className="progress-bar bg-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                <span className="skill">JavaScript <i className="val">75%</i></span>
-              </div>
-            </div>
-
-            <div className="progress">
-              <div className="progress-bar bg-danger" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
-                <span className="skill">Photoshop <i className="val">55%</i></span>
-              </div>
-            </div>
-
-          </div>
-
-        </div>
-      </section>
-
+      <Skills />
 
       <section className="testimonials" data-aos="fade-up">
         <div className="container">
