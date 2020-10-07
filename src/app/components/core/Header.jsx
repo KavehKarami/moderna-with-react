@@ -1,11 +1,14 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { routes } from '../../routes';
+import { useLocation } from "react-router-dom"
 import CustomLink from '../utils/CustomLink';
 
 const Footer = () => {
+  const { pathname } = useLocation()
+
   return (
     <React.Fragment>
-      <header id="header" className="fixed-top header-transparent">
+      <header id="header" className={pathname === "/" ? "fixed-top header-transparent" : "fixed-top"}>
         <div className="container">
 
           <div className="logo float-left">
