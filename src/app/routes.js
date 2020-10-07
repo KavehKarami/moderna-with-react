@@ -1,5 +1,10 @@
 import Home from "./containers/Home";
 import About from "./containers/About";
+import Services from "./containers/Services";
+import Portfolio from "./containers/Portfolio";
+import Team from "./containers/Team";
+import Blog from "./containers/Blog";
+import Contact from "./containers/Contact";
 
 export const routes = [
   { path: "/", component: Home, exact: true, label: "Home" },
@@ -8,5 +13,5 @@ export const routes = [
   { path: "/portfolio", component: Portfolio, exact: true, label: "Portfolio" },
   { path: "/team", component: Team, exact: true, label: "Team" },
   { path: "/blog", component: Blog, exact: true, label: "Blog" },
-  { path: "/contact", Component: contact, exact: true, label: "Contact Us" },
+  { path: "/contact", Component: Contact, exact: true, label: "Contact Us" },
 ];
