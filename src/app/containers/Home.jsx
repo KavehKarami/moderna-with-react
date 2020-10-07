@@ -1,7 +1,7 @@
 import React from 'react';
 import Features from '../components/home/features/Features'
 import HeroMain from '../components/home/heroSlider/HeroMain';
-import Services from '../components/shared/sections/services/Services';
+import OurServices from '../components/shared/sections/services/OurServices';
 import WhyUs from '../components/shared/sections/whyUs/WhyUs';
 
 const Home = () => {
@@ -10,7 +10,7 @@ const Home = () => {
       <HeroMain />
 
       <main id="main">
-        <Services />
+        <OurServices />
         <WhyUs />
         <Features />
       </main>
