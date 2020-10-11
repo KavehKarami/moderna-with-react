@@ -1,28 +1,13 @@
 import React from 'react';
 import Breadcrumb from '../components/shared/sections/Beadcrumb';
+import { useParams } from "react-router-dom"
 
 const BlogSingle = () => {
+  const { id } = useParams();
+
   return (
     <main id="main">
-
-
-      {/* <section className="breadcrumbs">
-        <div className="container">
-
-          <div className="d-flex justify-content-between align-items-center">
-            <h2>Blog</h2>
-
-            <ol>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="blog.html">Blog</a></li>
-              <li>Dolorum optio tempore voluptas dignissimos cumque fuga qui quibusdam quia reiciendis</li>
-            </ol>
-          </div>
-
-        </div>
-      </section> */}
-      <Breadcrumb isNested={true} name="Blog" id={1} />
-
+      <Breadcrumb isNested={true} name="Blog" id={id} />
 
       <section className="blog" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
         <div className="container">
