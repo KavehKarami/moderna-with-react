@@ -1,25 +1,10 @@
 import React from 'react';
+import Breadcrumb from '../components/shared/sections/Beadcrumb';
 
 const Blog = () => {
   return (
     <main id="main">
-
-
-      <section className="breadcrumbs">
-        <div className="container">
-
-          <div className="d-flex justify-content-between align-items-center">
-            <h2>Blog</h2>
-
-            <ol>
-              <li><a href="index.html">Home</a></li>
-              <li>Blog</li>
-            </ol>
-          </div>
-
-        </div>
-      </section>
-
+      <Breadcrumb name="Blog" />
 
       <section className="blog" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
         <div className="container">
