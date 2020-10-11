@@ -17,7 +17,10 @@ const Footer = () => {
 
           <nav className="nav-menu  float-right d-none d-lg-block">
             <ul>
-              {routes.map(((route, index) => <CustomLink key={index} path={route.path} exact={route.exact} label={route.label} />))}
+              {routes.map(((route, index) => {
+                if (route.label)
+                  return <CustomLink key={index} path={route.path} exact={route.exact} label={route.label} />
+              }))}
               <li className="drop-down"><a href="/">Drop Down</a>
                 <ul>
                   <li><a href="/#">Drop Down 1</a></li>
