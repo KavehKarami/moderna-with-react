@@ -2,6 +2,7 @@ import React from 'react';
 import Breadcrumb from '../components/shared/sections/Beadcrumb';
 import BlogSidebar from '../components/blog/BlogSidebar';
 import { useParams } from "react-router-dom"
+import BlogAuthor from '../components/blogSingle/BlogAuthor';
 
 const BlogSingle = () => {
   const { id } = useParams();
@@ -118,19 +119,8 @@ const BlogSingle = () => {
 
               </article>
 
-              <div className="blog-author clearfix">
-                <img src={require("../../assets/img/blog-author.jpg")} className="rounded-circle float-left" alt="" />
-                <h4>Jane Smith</h4>
-                <div className="social-links">
-                  <a href="https://twitters.com/#"><i className="icofont-twitter"></i></a>
-                  <a href="https://facebook.com/#"><i className="icofont-facebook"></i></a>
-                  <a href="https://instagram.com/#"><i className="icofont-instagram"></i></a>
-                </div>
-                <p>
-                  Itaque quidem optio quia voluptatibus dolorem dolor. Modi eum sed possimus accusantium. Quas repellat
-                  voluptatem officia numquam sint aspernatur voluptas. Esse et accusantium ut unde voluptas.
-              </p>
-              </div>
+
+              <BlogAuthor author="Jane Smith" imgURL={require("../../assets/img/blog-author.jpg")} about="Itaque quidem optio quia voluptatibus dolorem dolor. Modi eum sed possimus accusantium. Quas repellat voluptatem officia numquam sint aspernatur voluptas. Esse et accusantium ut unde voluptas." />
 
               <div className="blog-comments">
 
