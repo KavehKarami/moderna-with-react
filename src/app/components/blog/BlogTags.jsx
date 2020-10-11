@@ -7,7 +7,7 @@ const BlogTags = () => {
       <h3 className="sidebar-title">Tags</h3>
       <div className="sidebar-item tags">
         <ul>
-          {tags.map(tag => <li><a href="/blog/#">{tag}</a></li>)}
+          {tags.map((tag, index) => <li key={index}><a href="/blog/#">{tag}</a></li>)}
         </ul>
       </div>
     </React.Fragment>

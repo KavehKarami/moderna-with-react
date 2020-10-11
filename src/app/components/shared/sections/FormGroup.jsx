@@ -2,9 +2,9 @@ import React from 'react';
 
 const FormGroup = (props) => {
   return (
-    <div class={`${props.className} form-group`}>
+    <div className={`${props.className} form-group`}>
       {props.children}
-      <div class="validate"></div>
+      <div className="validate"></div>
     </div>
   );
 }
