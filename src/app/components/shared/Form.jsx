@@ -2,9 +2,9 @@ import React from 'react';
 
 const Form = (props) => {
   return (
-    <form class={props.className}>
+    <form class={props.formClassName}>
       {props.children}
-      <div class="text-center"><button type="submit">Send Message</button></div>
+      <div class={props.btnClassName}><button type="submit">{props.btnText}</button></div>
     </form>
   );
 }
