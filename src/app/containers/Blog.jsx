@@ -1,5 +1,6 @@
 import React from 'react';
 import Article from '../components/blog/Article';
+import Pagination from '../components/blog/Pagination';
 import Breadcrumb from '../components/shared/sections/Beadcrumb';
 
 const Blog = () => {
@@ -11,22 +12,12 @@ const Blog = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-8 entries">
-
               <Article imgURL={require("../../assets/img/blog-post-1.jpg")} blogId="1" title="Dolorum optio tempore voluptas dignissimos cumque fuga qui quibusdam quia reiciendis" />
               <Article imgURL={require("../../assets/img/blog-post-2.jpg")} blogId="2" title="Nisi magni odit consequatur autem nulla dolorem." />
               <Article imgURL={require("../../assets/img/blog-post-3.jpg")} blogId="3" title="Possimus soluta ut id suscipit ea ut. In quo quia et soluta libero sit sint." />
               <Article imgURL={require("../../assets/img/blog-post-4.jpg")} blogId="4" title="Non rem rerum nam cum quo minus. Dolor distinctio deleniti explicabo eius exercitationem. Veniam eius velit ab ipsa quidem rem." />
 
-              <div className="blog-pagination">
-                <ul className="justify-content-center">
-                  <li className="disabled"><i className="icofont-rounded-left"></i></li>
-                  <li><a href="/blog/#">1</a></li>
-                  <li className="active"><a href="/blog/#">2</a></li>
-                  <li><a href="/blog/#">3</a></li>
-                  <li><a href="/blog/#"><i className="icofont-rounded-right"></i></a></li>
-                </ul>
-              </div>
-
+              <Pagination />
             </div>
 
             <div className="col-lg-4">
