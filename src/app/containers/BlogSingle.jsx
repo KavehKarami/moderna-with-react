@@ -1,11 +1,12 @@
 import React from 'react';
+import Breadcrumb from '../components/shared/sections/Beadcrumb';
 
 const BlogSingle = () => {
   return (
     <main id="main">
 
 
-      <section className="breadcrumbs">
+      {/* <section className="breadcrumbs">
         <div className="container">
 
           <div className="d-flex justify-content-between align-items-center">
@@ -19,7 +20,8 @@ const BlogSingle = () => {
           </div>
 
         </div>
-      </section>
+      </section> */}
+      <Breadcrumb isNested={true} name="Blog" id={1} />
 
 
       <section className="blog" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
@@ -41,7 +43,7 @@ const BlogSingle = () => {
                 <div className="entry-meta">
                   <ul>
                     <li className="d-flex align-items-center"><i className="icofont-user"></i> <a href="blog-single.html">John Doe</a></li>
-                    <li className="d-flex align-items-center"><i className="icofont-wall-clock"></i> <a href="blog-single.html"><time datetime="2020-01-01">Jan 1, 2020</time></a></li>
+                    <li className="d-flex align-items-center"><i className="icofont-wall-clock"></i> <a href="blog-single.html"><time dateTime="2020-01-01">Jan 1, 2020</time></a></li>
                     <li className="d-flex align-items-center"><i className="icofont-comment"></i> <a href="blog-single.html">12 Comments</a></li>
                   </ul>
                 </div>
@@ -111,21 +113,21 @@ const BlogSingle = () => {
                   <div className="float-left">
                     <i className="icofont-folder"></i>
                     <ul className="cats">
-                      <li><a href="#">Business</a></li>
+                      <li><a href="/blog/#">Business</a></li>
                     </ul>
 
                     <i className="icofont-tags"></i>
                     <ul className="tags">
-                      <li><a href="#">Creative</a></li>
-                      <li><a href="#">Tips</a></li>
-                      <li><a href="#">Marketing</a></li>
+                      <li><a href="/blog/#">Creative</a></li>
+                      <li><a href="/blog/#">Tips</a></li>
+                      <li><a href="/blog/#">Marketing</a></li>
                     </ul>
                   </div>
 
                   <div className="float-right share">
-                    <a href="" title="Share on Twitter"><i className="icofont-twitter"></i></a>
-                    <a href="" title="Share on Facebook"><i className="icofont-facebook"></i></a>
-                    <a href="" title="Share on Instagram"><i className="icofont-instagram"></i></a>
+                    <a href="/blog/#" title="Share on Twitter"><i className="icofont-twitter"></i></a>
+                    <a href="/blog/#" title="Share on Facebook"><i className="icofont-facebook"></i></a>
+                    <a href="/blog/#" title="Share on Instagram"><i className="icofont-instagram"></i></a>
                   </div>
 
                 </div>
@@ -152,8 +154,8 @@ const BlogSingle = () => {
 
                 <div id="comment-1" className="comment clearfix">
                   <img src="assets/img/comments-1.jpg" className="comment-img  float-left" alt="" />
-                  <h5><a href="">Georgia Reader</a> <a href="#" className="reply"><i className="icofont-reply"></i> Reply</a></h5>
-                  <time datetime="2020-01-01">01 Jan, 2020</time>
+                  <h5><a href="/blog/#">Georgia Reader</a> <a href="/blog/#" className="reply"><i className="icofont-reply"></i> Reply</a></h5>
+                  <time dateTime="2020-01-01">01 Jan, 2020</time>
                   <p>
                     Et rerum totam nisi. Molestiae vel quam dolorum vel voluptatem et et. Est ad aut sapiente quis molestiae
                     est qui cum soluta.
@@ -163,16 +165,16 @@ const BlogSingle = () => {
 
                 <div id="comment-2" className="comment clearfix">
                   <img src="assets/img/comments-2.jpg" className="comment-img  float-left" alt="" />
-                  <h5><a href="">Aron Alvarado</a> <a href="#" className="reply"><i className="icofont-reply"></i> Reply</a></h5>
-                  <time datetime="2020-01-01">01 Jan, 2020</time>
+                  <h5><a href="/blog/#">Aron Alvarado</a> <a href="/blog/#" className="reply"><i className="icofont-reply"></i> Reply</a></h5>
+                  <time dateTime="2020-01-01">01 Jan, 2020</time>
                   <p>
                     Ipsam tempora sequi voluptatem quis sapiente non. Autem itaque eveniet saepe. Officiis illo ut beatae.
                 </p>
 
                   <div id="comment-reply-1" className="comment comment-reply clearfix">
                     <img src="assets/img/comments-3.jpg" className="comment-img  float-left" alt="" />
-                    <h5><a href="">Lynda Small</a> <a href="#" className="reply"><i className="icofont-reply"></i> Reply</a></h5>
-                    <time datetime="2020-01-01">01 Jan, 2020</time>
+                    <h5><a href="/blog/#">Lynda Small</a> <a href="/blog/#" className="reply"><i className="icofont-reply"></i> Reply</a></h5>
+                    <time dateTime="2020-01-01">01 Jan, 2020</time>
                     <p>
                       Enim ipsa eum fugiat fuga repellat. Commodi quo quo dicta. Est ullam aspernatur ut vitae quia mollitia
                       id non. Qui ad quas nostrum rerum sed necessitatibus aut est. Eum officiis sed repellat maxime vero
@@ -186,9 +188,9 @@ const BlogSingle = () => {
 
                     <div id="comment-reply-2" className="comment comment-reply clearfix">
                       <img src="assets/img/comments-4.jpg" className="comment-img  float-left" alt="" />
-                      <h5><a href="">Sianna Ramsay</a> <a href="#" className="reply"><i className="icofont-reply"></i> Reply</a>
+                      <h5><a href="/blog/#">Sianna Ramsay</a> <a href="/blog/#" className="reply"><i className="icofont-reply"></i> Reply</a>
                       </h5>
-                      <time datetime="2020-01-01">01 Jan, 2020</time>
+                      <time dateTime="2020-01-01">01 Jan, 2020</time>
                       <p>
                         Et dignissimos impedit nulla et quo distinctio ex nemo. Omnis quia dolores cupiditate et. Ut unde
                         qui eligendi sapiente omnis ullam. Placeat porro est commodi est officiis voluptas repellat quisquam
@@ -202,8 +204,8 @@ const BlogSingle = () => {
 
                 <div id="comment-3" className="comment clearfix">
                   <img src="assets/img/comments-5.jpg" className="comment-img  float-left" alt="" />
-                  <h5><a href="">Nolan Davidson</a> <a href="#" className="reply"><i className="icofont-reply"></i> Reply</a></h5>
-                  <time datetime="2020-01-01">01 Jan, 2020</time>
+                  <h5><a href="/blog/#">Nolan Davidson</a> <a href="/blog/#" className="reply"><i className="icofont-reply"></i> Reply</a></h5>
+                  <time dateTime="2020-01-01">01 Jan, 2020</time>
                   <p>
                     Distinctio nesciunt rerum reprehenderit sed. Iste omnis eius repellendus quia nihil ut accusantium
                     tempore. Nesciunt expedita id dolor exercitationem aspernatur aut quam ut. Voluptatem est accusamus iste
@@ -216,8 +218,8 @@ const BlogSingle = () => {
 
                 <div id="comment-4" className="comment clearfix">
                   <img src="assets/img/comments-6.jpg" className="comment-img  float-left" alt="" />
-                  <h5><a href="">Kay Duggan</a> <a href="#" className="reply"><i className="icofont-reply"></i> Reply</a></h5>
-                  <time datetime="2020-01-01">01 Jan, 2020</time>
+                  <h5><a href="/blog/#">Kay Duggan</a> <a href="/blog/#" className="reply"><i className="icofont-reply"></i> Reply</a></h5>
+                  <time dateTime="2020-01-01">01 Jan, 2020</time>
                   <p>
                     Dolorem atque aut. Omnis doloremque blanditiis quia eum porro quis ut velit tempore. Cumque sed quia ut
                     maxime. Est ad aut cum. Ut exercitationem non in fugiat.
@@ -270,12 +272,12 @@ const BlogSingle = () => {
                 <h3 className="sidebar-title">Categories</h3>
                 <div className="sidebar-item categories">
                   <ul>
-                    <li><a href="#">General <span>(25)</span></a></li>
-                    <li><a href="#">Lifestyle <span>(12)</span></a></li>
-                    <li><a href="#">Travel <span>(5)</span></a></li>
-                    <li><a href="#">Design <span>(22)</span></a></li>
-                    <li><a href="#">Creative <span>(8)</span></a></li>
-                    <li><a href="#">Educaion <span>(14)</span></a></li>
+                    <li><a href="/blog/#">General <span>(25)</span></a></li>
+                    <li><a href="/blog/#">Lifestyle <span>(12)</span></a></li>
+                    <li><a href="/blog/#">Travel <span>(5)</span></a></li>
+                    <li><a href="/blog/#">Design <span>(22)</span></a></li>
+                    <li><a href="/blog/#">Creative <span>(8)</span></a></li>
+                    <li><a href="/blog/#">Educaion <span>(14)</span></a></li>
                   </ul>
 
                 </div>
@@ -285,49 +287,49 @@ const BlogSingle = () => {
                   <div className="post-item clearfix">
                     <img src="assets/img/recent-posts-1.jpg" alt="" />
                     <h4><a href="blog-single.html">Nihil blanditiis at in nihil autem</a></h4>
-                    <time datetime="2020-01-01">Jan 1, 2020</time>
+                    <time dateTime="2020-01-01">Jan 1, 2020</time>
                   </div>
 
                   <div className="post-item clearfix">
                     <img src="assets/img/recent-posts-2.jpg" alt="" />
                     <h4><a href="blog-single.html">Quidem autem et impedit</a></h4>
-                    <time datetime="2020-01-01">Jan 1, 2020</time>
+                    <time dateTime="2020-01-01">Jan 1, 2020</time>
                   </div>
 
                   <div className="post-item clearfix">
                     <img src="assets/img/recent-posts-3.jpg" alt="" />
                     <h4><a href="blog-single.html">Id quia et et ut maxime similique occaecati ut</a></h4>
-                    <time datetime="2020-01-01">Jan 1, 2020</time>
+                    <time dateTime="2020-01-01">Jan 1, 2020</time>
                   </div>
 
                   <div className="post-item clearfix">
                     <img src="assets/img/recent-posts-4.jpg" alt="" />
                     <h4><a href="blog-single.html">Laborum corporis quo dara net para</a></h4>
-                    <time datetime="2020-01-01">Jan 1, 2020</time>
+                    <time dateTime="2020-01-01">Jan 1, 2020</time>
                   </div>
 
                   <div className="post-item clearfix">
                     <img src="assets/img/recent-posts-5.jpg" alt="" />
                     <h4><a href="blog-single.html">Et dolores corrupti quae illo quod dolor</a></h4>
-                    <time datetime="2020-01-01">Jan 1, 2020</time>
+                    <time dateTime="2020-01-01">Jan 1, 2020</time>
                   </div>
                 </div>
 
                 <h3 className="sidebar-title">Tags</h3>
                 <div className="sidebar-item tags">
                   <ul>
-                    <li><a href="#">App</a></li>
-                    <li><a href="#">IT</a></li>
-                    <li><a href="#">Business</a></li>
-                    <li><a href="#">Business</a></li>
-                    <li><a href="#">Mac</a></li>
-                    <li><a href="#">Design</a></li>
-                    <li><a href="#">Office</a></li>
-                    <li><a href="#">Creative</a></li>
-                    <li><a href="#">Studio</a></li>
-                    <li><a href="#">Smart</a></li>
-                    <li><a href="#">Tips</a></li>
-                    <li><a href="#">Marketing</a></li>
+                    <li><a href="/blog/#">App</a></li>
+                    <li><a href="/blog/#">IT</a></li>
+                    <li><a href="/blog/#">Business</a></li>
+                    <li><a href="/blog/#">Business</a></li>
+                    <li><a href="/blog/#">Mac</a></li>
+                    <li><a href="/blog/#">Design</a></li>
+                    <li><a href="/blog/#">Office</a></li>
+                    <li><a href="/blog/#">Creative</a></li>
+                    <li><a href="/blog/#">Studio</a></li>
+                    <li><a href="/blog/#">Smart</a></li>
+                    <li><a href="/blog/#">Tips</a></li>
+                    <li><a href="/blog/#">Marketing</a></li>
                   </ul>
 
                 </div>

@@ -20,6 +20,7 @@ const Footer = () => {
               {routes.map(((route, index) => {
                 if (route.label)
                   return <CustomLink key={index} path={route.path} exact={route.exact} label={route.label} />
+                return null;
               }))}
               <li className="drop-down"><a href="/">Drop Down</a>
                 <ul>
