@@ -76,7 +76,7 @@ const BlogSingle = () => {
                     Beatae minima sunt libero soluta sapiente in rem assumenda. Et qui odit voluptatem. Cum quibusdam
                     voluptatem voluptatem accusamus mollitia aut atque aut.
                 </p>
-                  <img src="assets/img/blog-post-4.jpg" className="img-fluid" alt="" />
+                  <img src={require("../../assets/img/blog-post-4.jpg")} className="img-fluid" alt="" />
 
                   <h3>Ut repellat blanditiis est dolore sunt dolorum quae.</h3>
                   <p>
@@ -119,7 +119,7 @@ const BlogSingle = () => {
               </article>
 
               <div className="blog-author clearfix">
-                <img src="assets/img/blog-author.jpg" className="rounded-circle float-left" alt="" />
+                <img src={require("../../assets/img/blog-author.jpg")} className="rounded-circle float-left" alt="" />
                 <h4>Jane Smith</h4>
                 <div className="social-links">
                   <a href="https://twitters.com/#"><i className="icofont-twitter"></i></a>
@@ -137,7 +137,7 @@ const BlogSingle = () => {
                 <h4 className="comments-count">8 Comments</h4>
 
                 <div id="comment-1" className="comment clearfix">
-                  <img src="assets/img/comments-1.jpg" className="comment-img  float-left" alt="" />
+                  <img src={require("../../assets/img/comments-1.jpg")} className="comment-img  float-left" alt="" />
                   <h5><a href="/blog/#">Georgia Reader</a> <a href="/blog/#" className="reply"><i className="icofont-reply"></i> Reply</a></h5>
                   <time dateTime="2020-01-01">01 Jan, 2020</time>
                   <p>
@@ -148,7 +148,7 @@ const BlogSingle = () => {
                 </div>
 
                 <div id="comment-2" className="comment clearfix">
-                  <img src="assets/img/comments-2.jpg" className="comment-img  float-left" alt="" />
+                  <img src={require("../../assets/img/comments-2.jpg")} className="comment-img  float-left" alt="" />
                   <h5><a href="/blog/#">Aron Alvarado</a> <a href="/blog/#" className="reply"><i className="icofont-reply"></i> Reply</a></h5>
                   <time dateTime="2020-01-01">01 Jan, 2020</time>
                   <p>
@@ -156,7 +156,7 @@ const BlogSingle = () => {
                 </p>
 
                   <div id="comment-reply-1" className="comment comment-reply clearfix">
-                    <img src="assets/img/comments-3.jpg" className="comment-img  float-left" alt="" />
+                    <img src={require("../../assets/img/comments-3.jpg")} className="comment-img  float-left" alt="" />
                     <h5><a href="/blog/#">Lynda Small</a> <a href="/blog/#" className="reply"><i className="icofont-reply"></i> Reply</a></h5>
                     <time dateTime="2020-01-01">01 Jan, 2020</time>
                     <p>
@@ -171,7 +171,7 @@ const BlogSingle = () => {
                   </p>
 
                     <div id="comment-reply-2" className="comment comment-reply clearfix">
-                      <img src="assets/img/comments-4.jpg" className="comment-img  float-left" alt="" />
+                      <img src={require("../../assets/img/comments-4.jpg")} className="comment-img  float-left" alt="" />
                       <h5><a href="/blog/#">Sianna Ramsay</a> <a href="/blog/#" className="reply"><i className="icofont-reply"></i> Reply</a>
                       </h5>
                       <time dateTime="2020-01-01">01 Jan, 2020</time>
@@ -187,7 +187,7 @@ const BlogSingle = () => {
                 </div>
 
                 <div id="comment-3" className="comment clearfix">
-                  <img src="assets/img/comments-5.jpg" className="comment-img  float-left" alt="" />
+                  <img src={require("../../assets/img/comments-5.jpg")} className="comment-img  float-left" alt="" />
                   <h5><a href="/blog/#">Nolan Davidson</a> <a href="/blog/#" className="reply"><i className="icofont-reply"></i> Reply</a></h5>
                   <time dateTime="2020-01-01">01 Jan, 2020</time>
                   <p>
@@ -201,7 +201,7 @@ const BlogSingle = () => {
                 </div>
 
                 <div id="comment-4" className="comment clearfix">
-                  <img src="assets/img/comments-6.jpg" className="comment-img  float-left" alt="" />
+                  <img src={require("../../assets/img/comments-6.jpg")} className="comment-img  float-left" alt="" />
                   <h5><a href="/blog/#">Kay Duggan</a> <a href="/blog/#" className="reply"><i className="icofont-reply"></i> Reply</a></h5>
                   <time dateTime="2020-01-01">01 Jan, 2020</time>
                   <p>
