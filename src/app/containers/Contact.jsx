@@ -1,6 +1,7 @@
 import React from 'react';
 import GoogleMap from '../components/contact/GoogleMap';
 import Information from '../components/contact/Information';
+import Loading from '../components/contact/Loading';
 import Form from '../components/shared/Form';
 import Breadcrumb from "../components/shared/sections/Beadcrumb"
 import FormGroup from '../components/shared/sections/FormGroup';
@@ -43,14 +44,9 @@ const Contact = () => {
                   <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
                 </FormGroup>
 
-                <div class="mb-3">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-                </div>
+                <Loading />
 
               </Form>
-
             </div>
           </div>
         </div>
